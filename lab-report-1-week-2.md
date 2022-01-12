@@ -1,1 +1,1 @@
-
+![Image](https://brytonlee5.github.io/cse15l-lab-reports/Optimizing%20Remove%20Running.png)
