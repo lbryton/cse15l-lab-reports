@@ -8,12 +8,14 @@ Test Links:
 
 1. Setting up VS Code
 
-![Image](https://brytonlee5.github.io/cse15l-lab-reports/Optimizing%20Remove%20Running.png)
-
 2. Remotely Connecting to CSE course-specific accounts.
 
 3. Running Some Commands
 
 4. Moving Files with **scp**
 
-5.
+5. Setting up an SSH Key
+
+6. Optimizing Remote Running
+
+![Image](Optimizing%20Remove%20Running.png)
