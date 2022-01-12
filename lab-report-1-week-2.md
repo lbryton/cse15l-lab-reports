@@ -18,6 +18,8 @@ Test Links:
 
 4. Moving Files with **scp**
 
+![Image](Part3)
+
 5. Setting up an SSH Key
 
 6. Optimizing Remote Running
