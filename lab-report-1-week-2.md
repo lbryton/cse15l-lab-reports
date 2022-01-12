@@ -8,7 +8,11 @@ Test Links:
 
 1. Setting up VS Code
 
+> Download VS cod at this [link](https://code.visualstudio.com/). 
+
 2. Remotely Connecting to CSE course-specific accounts.
+
+![Image](Part2.png)
 
 3. Running Some Commands
 
@@ -18,4 +22,4 @@ Test Links:
 
 6. Optimizing Remote Running
 
-![Image](Optimizing%20Remove%20Running.png)
+![Image](Part6.png)
