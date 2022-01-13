@@ -4,7 +4,7 @@ Test Links:
 
 [Lab Report 1](lab-report-1-week-2.html)
 
-[Lab Report 1](https://lbryton.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
+[Lab Report 1](https://lbryton.github.io/cse15l-lab-reports/LabReport1/lab-report-1-week-2.html)
 
 1. Setting up Visual Studio Code
 
@@ -15,9 +15,7 @@ After downloading and installing Visual Studio, open up the application, and you
 
 2. Remotely Connecting to CSE course-specific accounts
 
->To remotely connect to your CSE course-specific account, you will have to go to this [*link*](https://sdacs.ucsd.edu/~icc/index.php). 
-
-After signing in with your UC San Diego username and PID, you will find your course-specific account under **Additional Accounts**. Your account username may include the specific class and quarter you are taking this class. To use this account, you will have to create a password. When you change your password, make sure you pick only to change the course account. Otherwise, you will also change your passwords for your TritonLink account.
+>To remotely connect to your CSE course-specific account, you will have to go to this [*link*](https://sdacs.ucsd.edu/~icc/index.php). ![Image](Part2A.png)After signing in with your UC San Diego username and PID, you will find your course-specific account under **Additional Accounts**. Your account username may include the specific class and quarter you are taking this class. To use this account, you will have to create a password. When you change your password, make sure you pick only to change the course account. Otherwise, you will also change your passwords for your TritonLink account.
 
 ![Image](Part2.png)
 
