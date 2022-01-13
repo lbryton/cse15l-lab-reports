@@ -19,14 +19,32 @@ After downloading and installing Visual Studio, open up the application, and you
 
 3. Running Some Commands
 
->
-![Image](Part3.png)
+>After you have remotly connected to the UC San Diego servers, there are a few commands you could try out:
+* cd: Used to change your directory.
+* ls: Used to list out the files and directories of a specific directory. You can use ls -a, ls -la, and ls -lat to display more information about a specific directory
+* pwd: Used to print out the directory the user is at.
+* mkdir: Used to create a directory.
+* cp: Used to copy files or a directory.
+* scp: Used to transfer data between two different systems (Server and Client for example).
+* cat: Used to create and view files.
+![Image](Part3A.png)
 4. Moving Files with **scp**
 
-![Image](Part3)
+>One example of the use of scp is transferring files from your computer onto the remote computer. For example, you can copy the file WhereAmI.java with the code below onto the remote computer:
+![Image](Part4A.png)
+You do this by using the command scp (file name) (account username)@ieng6.ucsd.edu:~/.
+![Image](Part4B.png)
 
 5. Setting up an SSH Key
 
+>You can create a SSH Key to remove the process of typing in your account password everytime. You create your SSH Key by typing in ssh-keygen -t ed25519. You can specify the location of where you would like the keys to be generated and the password for the keys. Make sure you remember your password, as it will be your login password when remotely connecting.
+![Image](Part5A.png)
+
 6. Optimizing Remote Running
 
-![Image](Part6.png)
+>To use your SSH Key for optimizing your remote running, you will have to copy your key onto the directory of your server account. You will have to:
+* Create a .ssh directory in your server account (mkdir .ssh)
+* Then copy the public SSH Key into that directory from your computer:
+scp /Users/(username))/.ssh/id_rsa.pub (account username))@ieng6.ucsd.edu:~/.ssh/authorized_keys
+![Image](Part6A.png)
+![Image](Part6B.png)
