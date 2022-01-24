@@ -45,7 +45,8 @@ This program allows you to see where you are, whether you are on your computer o
 to copy the file onto the remote server (your UCSD terminal). 
 ![Image](Part4B.png)
 Now log back into your UCSD terminal and try to run `WhereAmI.java`. You should now see the remote server's information like show below.
-![Image](Part4B.png)
+
+![Image](Part4C.png)
 
 ## **Setting up an SSH Key**
 
