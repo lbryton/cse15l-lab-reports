@@ -15,26 +15,35 @@ After downloading and installing Visual Studio, open up the application, and you
 
 ## **Remotely Connecting to CSE course-specific accounts**
 
-To remotely connect to your CSE course-specific account, you will have to go to this [*link*](https://sdacs.ucsd.edu/~icc/index.php). ![Image](Part2A.png)After signing in with your UC San Diego username and PID, you will find your course-specific account under **Additional Accounts**. Your account username may include the specific class and quarter you are taking this class. To use this account, you will have to create a password. When you change your password, make sure you pick only to change the course account. Otherwise, you will also change your passwords for your TritonLink account. ![Image](Part2B.png) After setting up the password for the account, you can now remotely connect to the UC San Diego servers. By typing the command ```ssh (account username)@ieng6.ucsd.edu``` and then entering the password created, you can connect with the UC San Diego servers.![Image](Part2C.png)
+To remotely connect to your CSE course-specific account, you will have to go to this [*link*](https://sdacs.ucsd.edu/~icc/index.php). ![Image](Part2A.png)After signing in with your UC San Diego username and PID, you will find your course-specific account under **Additional Accounts**. Your account username may include the specific class and quarter you are taking this class. To use this account, you will have to create a password. When you change your password, make sure you pick only to change the course account. Otherwise, you will also change your passwords for your TritonLink account. ![Image](Part2B.png) After setting up the password for the account, you can now remotely connect to the UC San Diego servers. By typing the command 
+
+```ssh (account username)@ieng6.ucsd.edu```
+
+ and then entering the password created, you can connect with the UC San Diego servers.![Image](Part2C.png)
 
 
 ## **Running Some Commands**
 
 After you have remotly connected to the UC San Diego servers, there are a few commands you could try out:
-* ```$ cd```: Used to change your directory.
-* ```$ ls```: Used to list out the files and directories of a specific directory.
-* ```$ pwd```: Used to print out the directory the user is at.
-* ```$ mkdir```: Used to create a directory.
-* ```$ cp```: Used to copy files or a directory.
-* ```$ scp```: Used to transfer data between two different systems (Server and Client for example).
-* ```$ cat```: Used to create and view files.
+* `$ cd`: Used to change your directory.
+* `$ ls`, `$ ls - lat`, and `$ ls -a`: Used to list out the files and directories of a specific directory.
+* `$ pwd`: Used to print out the directory the user is at.
+* `$ mkdir`: Used to create a directory.
+* `$ cp`: Used to copy files or a directory.
+* `$ scp`: Used to transfer data between two different systems (Server and Client for example).
+* `$ cat`: Used to create and view files.
 ![Image](Part3A.png)
 
 ## **Moving Files with *scp***
 
-One example of the use of scp is transferring files from your computer onto the remote computer. For example, you can copy the file WhereAmI.java with the code below onto the remote computer:
+One example of the use of scp is transferring files from your computer onto the remote computer. For example, you can copy the file WhereAmI.java from your computer to the remote server. First, go back to your computer's terminal using `$ exit` or creating a new terminal. Next, make a file, `WhereAmI.java`, and fill the program with the following code:
 ![Image](Part4A.png)
-You do this by using the command ```$ scp (file name) (account username)@ieng6.ucsd.edu:~/```.
+This program allows you to see where you are, whether you are on your computer or UCSD's servers. Try running this program on your computer and observe the results. Now run the command
+
+```$ scp (file name) (account username)@ieng6.ucsd.edu:~/```
+to copy the file onto the remote server (your UCSD terminal). 
+![Image](Part4B.png)
+Now log back into your UCSD terminal and try to run `WhereAmI.java`. You should now see the remote server's information like show below.
 ![Image](Part4B.png)
 
 ## **Setting up an SSH Key**
