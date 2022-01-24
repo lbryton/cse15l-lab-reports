@@ -41,6 +41,7 @@ One example of the use of scp is transferring files from your computer onto the 
 This program allows you to see where you are, whether you are on your computer or UCSD's servers. Try running this program on your computer and observe the results. Now run the command
 
 ```$ scp (file name) (account username)@ieng6.ucsd.edu:~/```
+
 to copy the file onto the remote server (your UCSD terminal). 
 ![Image](Part4B.png)
 Now log back into your UCSD terminal and try to run `WhereAmI.java`. You should now see the remote server's information like show below.
@@ -56,6 +57,8 @@ You can create a SSH Key to remove the process of typing in your account passwor
 To use your SSH Key for optimizing your remote running, you will have to copy your key onto the directory of your server account. You will have to:
 * Create a .ssh directory in your server account (```$ mkdir .ssh```)
 * Then copy the public SSH Key into that directory from your computer:
-```$ scp /Users/(username))/.ssh/id_rsa.pub (account username))@ieng6.ucsd.edu:~/.ssh/authorized_keys```.
+
+```$ scp /Users/(username))/.ssh/id_rsa.pub (account username))@ieng6.ucsd.edu:~/.ssh/authorized_keys```
+
 ![Image](Part6A.png)
 ![Image](Part6B.png)
