@@ -66,7 +66,9 @@ To use your SSH Key for optimizing your remote running, you will have to copy yo
 
 After setting up your SSH Key with your remote account, it be even easier to run commands remotely. By putting commands after calling for `$ ssh (account username)@ieng6.ucsd.edu` in quotes, you will be able to run commands on your remote account through your computer's terminal. 
 ![Image](Part6C.png)
-Another useful trick is by placing semicolons between commands to seperate different lines of code within one line.
+Another useful trick is by placing semicolons between commands to seperate different lines of code within one line, which makes remote running much easier.
 ![Image](Part6D.png)
+Using these steps, you will be able to optimize your keystrokes for remote running. In this example, it took 67 keystrokes to run the code above remotely.
+
 
 And there you have it. These are the basic steps to connect and use UCSD's remote server using VS Code.
