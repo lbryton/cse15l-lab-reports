@@ -25,7 +25,8 @@ To fix this error, I allowed the program to check if any of the values for `next
 >```
 > Because there is no link in the test file, the program should return a blank `ArrayList`. However, the original code returns a `(` as shown below:
 >![Image](Part2A.png)
->To fix this issue, I made these changes to the original code:
+>
+>To fix this issue, I added an additional check to maker sure that the index value of `nextCloseBracket` is one value less than `openParen` to catch another necessary format for links, as show below:
 >![Image](Part2diff.png)
 
 ## 3. Error 3: Images Are Counted As Links
