@@ -31,5 +31,6 @@ To fix this error, I allowed the program to check if any of the values for `next
 ## 3. Error 3: Images Are Counted As Links
 > Another error my lab group decided to fix to add another parameters to define a link. For markdown, the method to create links and images are quite similar. The method to create links are `[link text](website link)`, while the method to create an image is `![Image name](Link to image)`.  However, the original program does not differentiate between a link and an image when returning the links. As a result, this [test file](https://github.com/lbryton/markdown-parse/blob/main/testfile3.md) is a failure-inducing input and produced the response below instead of a blank `ArrayList`.
 >![Test](Part3A.png)
+>
 >To fix this issue, my group and I checked if there is an exclamation mark (`!`)before the open bracket (`[`) to prevent images from being counted as lists. The changes to fix this code are show below:
 >![Image](Part3diff.png)
