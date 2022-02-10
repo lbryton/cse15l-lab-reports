@@ -11,14 +11,38 @@ Pre Lab Notes:
 1. Lab Report [here](https://ucsd-cse15l-w22.github.io/week/week6/#week-6-lab-report)
 
 ## Part 1: Show and Edit `.ssh/config` file
-> adsfasf
-![Image](Part1A.png)
-![Image](Part1B.png)
+> The first part of streamlining the ssh configuration is locating the location of 
+the .ssh directory and creating the config file in it. To get to the `.ssh` directory
+on Visual Studio Code, you first go to the directory by clicking on Open Folder in the File tab as show below:
+>
+>![Image](Part1A.png)
+>
+> Next, I located where my .ssh directory is and selected that folder. After moving
+into the `.ssh` directory, I created a file named `config` to streamline my ssh and
+wrote the following inside the `config` file:
+>
+>![Image](Part1B.png)
+>
+> The `Host` is the name of the alias I chose, the `Hostname` is the domain of the 
+remote server I ssh into, and the `User` is the username of my account in the 
+remote server.
 
+## Part 2: Using the `ssh` Command to Login With Configurated Alias
+> To login to the remote server, I use my alias defined in the `.ssh/config` file 
+instead of `(username)@(ieng6.ucsd.edu)`. Show below is the difference between having an alias and not having an alias:
+>
+> ![Image](Part2A.png)
+>> (Without an alias)
+>
+> ![Image](Part2B.png)
+>> (With an alias)
+>
+> As a result of configurating the alias, I am able to save myself time using short
+aliases rather than writing out `(username)@(ieng6.ucsd.edu)`
 
-
-## Part 2:
-> 
-
-## Part 3:
-> 
+## Part 3: Copying a File using `scp` Using Configurated Alias
+> Similarly, I can use my configured alias for other terminal commands to interact with UCSD's remote server. One example is copying a file using the configured alias as shown below:
+>
+>![Image](Part3A.png)
+>
+> Once again, I save myself time copying the file onto UCSD's remote server through `scp` by using my alias to streamline the remote process. 
