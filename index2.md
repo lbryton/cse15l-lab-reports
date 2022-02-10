@@ -1,2 +1,0 @@
-Hello, world!
-[Index](index)

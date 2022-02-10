@@ -1,9 +1,10 @@
-# Week 4 Lab 2 Report:
+# Lab 2 Week 4 Report:
 - This lab report is to describe 3 bug changes in MarkdownParse.java to remove incorrect ouputs
 
 Lab Links:
 - [Index](https://lbryton.github.io/cse15l-lab-reports/index.html)
 1. [Lab Report 1](https://lbryton.github.io/cse15l-lab-reports/LabReport1/lab-report-1-week-2.html)
+2. [Lab Report 3](https://lbryton.github.io/cse15l-lab-reports/LabReport3/lab-report-3-week-6.html)
 
 Pre Lab Notes:
 
