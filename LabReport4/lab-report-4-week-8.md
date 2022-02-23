@@ -1,15 +1,15 @@
-#  Lab 3 Week 6 Report:
-- This lab report is to show one of the Group Choice Options from [week 5](https://ucsd-cse15l-w22.github.io/week/week5/#group-choice-1-streamline-ssh-configuration). The option described in this lab report is streamlining the ssh Configuration
+#  Lab 4 Week 8 Report:
+
 
 Lab Links:
 - [Index](https://lbryton.github.io/cse15l-lab-reports/index.html)
 1. [Lab Report 1](https://lbryton.github.io/cse15l-lab-reports/LabReport1/lab-report-1-week-2.html)
-2. [Lab Report 2](https://lbryton.github.io/cse15l-lab-reports/LabReport2/lab-report-2-week-4.html)
-3. [Lab Report 4](https://lbryton.github.io/cse15l-lab-reports/LabReport4/lab-report-4-week-8.html)
+1. [Lab Report 2](https://lbryton.github.io/cse15l-lab-reports/LabReport2/lab-report-2-week-4.html)
+1. [Lab Report 3](https://lbryton.github.io/cse15l-lab-reports/LabReport3/lab-report-3-week-6.html)
 
 Pre Lab Notes:
 
-1. Lab Report [here](https://ucsd-cse15l-w22.github.io/week/week6/#week-6-lab-report)
+1. Lab Report [here](https://ucsd-cse15l-w22.github.io/week/week8/#week-8-lab-report)
 
 ## Part 1: Show and Edit `.ssh/config` file
 > The first part of streamlining the ssh configuration is locating the location of 

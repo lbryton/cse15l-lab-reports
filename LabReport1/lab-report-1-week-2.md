@@ -5,6 +5,7 @@ how to connect to the UCSD remote server.
 - [Index](https://lbryton.github.io/cse15l-lab-reports/index.html)
 1. [Lab Report 2](https://lbryton.github.io/cse15l-lab-reports/LabReport2/lab-report-2-week-4.html)
 2. [Lab Report 3](https://lbryton.github.io/cse15l-lab-reports/LabReport3/lab-report-3-week-6.html)
+3. [Lab Report 4](https://lbryton.github.io/cse15l-lab-reports/LabReport4/lab-report-4-week-8.html)
 
 ## **Setting up Visual Studio Code**
 

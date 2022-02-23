@@ -5,6 +5,7 @@ Lab Links:
 - [Index](https://lbryton.github.io/cse15l-lab-reports/index.html)
 1. [Lab Report 1](https://lbryton.github.io/cse15l-lab-reports/LabReport1/lab-report-1-week-2.html)
 2. [Lab Report 3](https://lbryton.github.io/cse15l-lab-reports/LabReport3/lab-report-3-week-6.html)
+3. [Lab Report 4](https://lbryton.github.io/cse15l-lab-reports/LabReport4/lab-report-4-week-8.html)
 
 Pre Lab Notes:
 
