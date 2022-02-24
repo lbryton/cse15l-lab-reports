@@ -1,5 +1,5 @@
 #  Lab 4 Week 8 Report:
-
+- The purpose of this lab is to test if my groups code and the group that my group reviewed worked for certain examples. I will be testing each snippet with each java code and determine the possible solutions to my group's code.
 
 Lab Links:
 - [Index](https://lbryton.github.io/cse15l-lab-reports/index.html)
@@ -10,40 +10,42 @@ Lab Links:
 Pre Lab Notes:
 
 1. Lab Report [here](https://ucsd-cse15l-w22.github.io/week/week8/#week-8-lab-report)
+2. Links:
+- Link to my markdown-parse [repository](https://github.com/lbryton/markdown-parse)
+- Link to reviewed markdown-parse [repository](https://github.com/ShashankVenkatramani/markdown-parse)
+- Link to [Snippet1](https://github.com/lbryton/cs15lcode/blob/main/Lab4/Snippet1.md),
+ [Snippet2](https://github.com/lbryton/cs15lcode/blob/main/Lab4/Snippet2.md),
+  and [Snippet3](https://github.com/lbryton/cs15lcode/blob/main/Lab4/Snippet3.md)
+- Link to [tester](https://github.com/lbryton/cs15lcode/blob/main/Lab4/MarkdownParseTest.java) and [code repository](https://github.com/lbryton/cs15lcode/tree/main/Lab4)
 
-## Part 1: Show and Edit `.ssh/config` file
-> The first part of streamlining the ssh configuration is locating the location of 
-the .ssh directory and creating the config file in it. To get to the `.ssh` directory
-on Visual Studio Code, you first go to the directory by clicking on Open Folder in the File tab as show below:
->
+## Part 1: Testing Snippet 1 on Our Group's MarkdownParse 
+- Did it pass: No
+> Reason: There is no implementation in our group's code to determine if a possible link is an actual link if there are backticks. 
 >![Image](Part1A.png)
->
-> Next, I located where my .ssh directory is and selected that folder. After moving
-into the `.ssh` directory, I created a file named `config` to streamline my ssh and
-wrote the following inside the `config` file:
->
->![Image](Part1B.png)
->
-> The `Host` is the name of the alias I chose, the `Hostname` is the domain of the 
-remote server I ssh into, and the `User` is the username of my account in the 
-remote server.
+> Method of solution: I do not think that making a small (<10 line) code change will make my group's program work for snippet 1. This is because of how many cases that would have to be searched to make sure that backticks do not influence the link. This is because you would have to check for backticks inside and outside of each bracket and parentheses and would have to check if that backtick matched with one in the previous or next line's backtick. If I were to implement these features, I would create one method to pair up each backtick if possible and another to determine if the link is within an affected area and to determine what to do if it is. 
 
-## Part 2: Using the `ssh` Command to Login With Configurated Alias
-> To login to the remote server, I use my alias defined in the `.ssh/config` file 
-instead of `(username)@(ieng6.ucsd.edu)`. Show below is the difference between having an alias and not having an alias:
->
-> ![Image](Part2A.png)
->> (Without an alias)
->
-> ![Image](Part2B.png)
->> (With an alias)
->
-> As a result of configurating the alias, I am able to save myself time using short
-aliases rather than writing out `(username)@(ieng6.ucsd.edu)`
-
-## Part 3: Copying a File using `scp` Using Configurated Alias
-> Similarly, I can use my configured alias for other terminal commands to interact with UCSD's remote server. One example is copying a file using the configured alias as shown below:
->
+## Part 2: Testing Snippet 1 on Reviewed Group's MarkdownParse 
+- Did it pass: No
+> Reason: There is no implementation in our group's code to determine if a possible link is an actual link if there are backticks. 
+>![Image](Part2A.png)
+## Part 3: Testing Snippet 2 on Our Group's MarkdownParse 
+- Did it pass: No
+> Reason: 
 >![Image](Part3A.png)
->
-> Once again, I save myself time copying the file onto UCSD's remote server through `scp` by using my alias to streamline the remote process. 
+> Method of solution: I do not think that making a small (<10 line) code change will make my group's program work for snippet 2. Just like the backticks in snippet 1, there will also be many different cases for nested and escaped brackets and parentheses. If I were to implement these features, I would create one method to check for escaped brackets, a recursive methods to find nested brackets and another recursive method to find nested parentheses.
+
+## Part 4: Testing Snippet 2 on Reviewed Group's MarkdownParse 
+- Did it pass: No
+> Reason: 
+>![Image](Part4A.png)
+
+## Part 5: Testing Snippet 3 on Our Group's MarkdownParse 
+- Did it pass: No
+> Reason: 
+>![Image](Part5A.png)
+> Method of solution: I think that it would be possible that making a small (<10 line) code change will make my group's program work for snippet 3. First I would replace the `containsSpace` variable and replace it with code that would trim off spaces before and after the link. For example: `"( abc )"` as a link to `[abc]` as a return for the `getLinks` method. The next thing I would do is create a method to determine if there are consecutive line spaces (two or more `\n`) within the link or link title and remove them if they exist to allow the code to get the links properly.
+
+## Part 6: Testing Snippet 3 on Reviewed Group's MarkdownParse 
+- Did it pass: No
+> Reason: 
+>![Image](Part6A.png)
