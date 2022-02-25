@@ -28,6 +28,7 @@ Pre Lab Notes:
 - Did it pass: No
 > Reason: There is no implementation in our group's code to determine if a possible link is an actual link if there are backticks. 
 >![Image](Part2A.png)
+
 ## Part 3: Testing Snippet 2 on Our Group's MarkdownParse 
 - Did it pass: No
 > Reason: 
